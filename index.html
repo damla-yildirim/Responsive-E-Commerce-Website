@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ana sayfa</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
+    <!--Font awesome CSS-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--Slick CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  </head>
+  <body>
+
+    <div class="top">
+        <ul class="contact list-unstyled">
+            <li><a href="tel:05555555555" data-number="05555555555" class="phone"><span><i class="fa fa-phone" aria-hidden="true"></i></span><span itemprop="telephone">0555 555 55 55</span></a></li>
+            <li><a href="mailto:test.deneme@gmail.com"><span><i class="fa fa-envelope-o" aria-hidden="true"></i></span><span itemprop="email">test.deneme@gmail.com</span></a></li>
+        </ul>
+        <span>150TL ve üzeri alışverişlerde ÜCRETSİZ KARGO!</span>
+        <ul class="language list-unstyled">
+            <li><a href="index.html" data-active="1" data-lang="TR" class="DilDegistir">TR</a></li>
+            <li><a href="index-en.html" data-active="0" data-lang="EN" class="DilDegistir">EN</a></li>
+        </ul>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="header-top">
+                    <div class="col-lg-3 hidden-md hidden-sm hidden-xs">
+                        <div class="search-area">
+                            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                            <div class="search">
+                                <form id="AramaForm">
+                                    <input type="text" name="Keyword" class="form-control" id="Kelime" placeholder="Ne Aramıştınız?">
+                                    <button id="SearchFormButton" class="btn btn-sm"><i class="fa fa-search" aria-hidden="true"></i><span>Ara</span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo.png" width="199" height="30"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 hidden-md hidden-sm hidden-xs">
+                        <div class="user-nav">
+                            <div>
+                                <a href="/giris"><i class="fa fa-user-o" aria-hidden="true"></i><span>Üyelik</span></a>
+                            </div>
+                            <div class="cart dropdown">
+                                <div class="dropdown-toggle" type="button" data-toggle="dropdown">
+                                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                    <span class="cart-amount">0</span>
+                                </div>
+                                <div class="dropdown-menu">
+                                    <p>Sepetinizde ürün bulunmamaktadır</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainmenu">
+            <div class="container">
+                <ul class="top-nav list-unstyled">
+                    <li>
+                        <a href="#" target="_self">Ahşap Oyuncaklar</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_self">Bebek Oyuncakları</a>
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <div class="sub-nav">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" target="_self">Çıngırak ve Dişlik</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Banyo Oyuncakları</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Eğitici Oyuncaklar</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Oyun Halısı</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Yürüteçler</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" target="_self">Masal Kitapları</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_self">Karakterler</a>
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <div class="sub-nav">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" target="_self">Barbie</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Disney Prensesler</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Avangers</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Starwars</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Hot Wheels</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Fisher-Price</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" target="_self">Araçlar</a>
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <div class="sub-nav">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" target="_self">Akülü Araçlar</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Pedallı Araçlar</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" target="_self">Hobi Oyuncakları</a>
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <div class="sub-nav list-unstyled">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" target="_self">Sihirbazlık Setleri</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">Şaka Oyuncakları</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-search"> </div>
+    <div class="mobile-menu"> </div>
+    
+    <div class="mobile-sticky-menu">
+        <ul>
+            <li><div class="mobile-toggle"><button class="mobilemenu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></button></div></li>
+            <li><div class="search-toggle"><button class="mobilemenu-toggle"><i class="fa fa-search" aria-hidden="true"></i></button></div></li>
+            <li><a href="{ccurl}/giris"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+            <li><a href="{ccurl}/sepet"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span class="cart-amount">0</span></a></li>
+        </ul>
+    </div>
+
+    <div class="fullslider">
+        <div class="item"><a href="#"><img src="img/Slider-1.jpg" alt=""></a></div>
+        <div class="item"><a href="#"><img src="img/Slider-2.jpg" alt=""></a></div>
+    </div>
+
+    <div class="container">
+        <div class="shopping-info">
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <span>0(555) 555 55 55</span>
+                    <span>Whatsapp İletişim</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-truck" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <span>500 TL ve üzerine</span>
+                    <span>Kargo Bedava</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-shield" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <span>SSL sertifikası ile</span>
+                    <span>Güvenli Alışveriş</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-tags" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <span>%20'ye varan indirimler</span>
+                    <span>İnanılmaz Fiyatlar</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="banner-wrapper banner01">
+            <div class="row">
+                <div class="col-xs-6 col-sm-3"><a href="#"><img src="img/banner01-1.jpg" alt=""></a></div>
+                <div class="col-xs-6 col-sm-3"><a href="#"><img src="img/banner01-4.jpg" alt=""></a></div>
+                <div class="col-xs-6 col-sm-3"><a href="#"><img src="img/banner01-2.jpg" alt=""></a></div>
+                <div class="col-xs-6 col-sm-3"><a href="#"><img src="img/banner01-3.jpg" alt=""></a></div>
+            </div>
+        </div>
+        
+        <div class="home-products">
+            <h3>Çok Satanlar</h3>
+            <div class="home-product-carousel">
+                <div class="item">
+                    <div class="product-item">
+                        <div class="image">
+                            <a href="#">
+                                <img src="img/oyuncak-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="detail">
+                            <a href="#" class="name">Barbie Bebek Çiçekçi Barbie</a>
+                            <div class="price">
+                                <div class="last-price">349,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-item">
+                        <div class="image">
+                            <a href="#">
+                                <img src="img/oyuncak-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="detail">
+                            <a href="#" class="name">Peluş Oyuncak Panda</a>
+                            <div class="price">
+                                <div class="old-price">399,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                                <div class="last-price">299,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                                <div class="discount">25%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-item">
+                        <div class="image">
+                            <a href="#">
+                                <img src="img/oyuncak-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="detail">
+                            <a href="#" class="name">Peluş Oyuncak Pembe Maymun</a>
+                            <div class="price">
+                                <div class="old-price">249,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                                <div class="last-price">199,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                                <div class="discount">20%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-item">
+                        <div class="image">
+                            <a href="#">
+                                <img src="img/oyuncak-4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="detail">
+                            <a href="#" class="name">0-2 Yaş Bebek Eğitici Konuşan Aktivite Masası</a>
+                            <div class="price">
+                                <div class="last-price">1099,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <ul class="labels list-unstyled">
+                            <li class="bakilanurun" data-value="0">Bakılabilen Ürün</li>
+                            <li class="ucretsizkargo" data-value="1">Ücretsiz Kargo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-item">
+                        <div class="image">
+                            <a href="#">
+                                <img src="img/oyuncak-5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="detail">
+                            <a href="#" class="name">Ahşap Oyuncak Tamir Seti</a>
+                            <div class="price">
+                                <div class="old-price">999,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                                <div class="last-price">699,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                                <div class="discount">30%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-products">
+            <h3>Yeni Gelenler</h3>
+            <div class="home-product-carousel">
+                <div class="item">
+                    <div class="product-item">
+                        <div class="image">
+                            <a href="#">
+                                <img src="img/oyuncak-6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="detail">
+                            <a href="#" class="name">Müzikli Bebek Oyun Halısı</a>
+                            <div class="price">
+                                <div class="last-price">289,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <ul class="labels list-unstyled">
+                            <li class="bakilanurun" data-value="0">Bakılabilen Ürün</li>
+                            <li class="ucretsizkargo" data-value="1">Ücretsiz Kargo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-item">
+                        <div class="image">
+                            <a href="#">
+                                <img src="img/oyuncak-7.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="detail">
+                            <a href="#" class="name">Hot Wheels Ultimate Garaj Dev Kule</a>
+                            <div class="price">
+                                <div class="last-price">2.999,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <ul class="labels list-unstyled">
+                            <li class="bakilanurun" data-value="1">Bakılabilen Ürün</li>
+                            <li class="ucretsizkargo" data-value="1">Ücretsiz Kargo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-item">
+                        <div class="image">
+                            <a href="#">
+                                <img src="img/oyuncak-8.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="detail">
+                            <a href="#" class="name">Gerçekçi Oyuncak Bebek Yumuşak Silikon 17 inç Oyuncak Bebek</a>
+                            <div class="price">
+                                <div class="old-price">1.249,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                                <div class="last-price">1.124,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                                <div class="discount">10%</div>
+                            </div>
+                        </div>
+                        <ul class="labels list-unstyled">
+                            <li class="bakilanurun" data-value="0">Bakılabilen Ürün</li>
+                            <li class="ucretsizkargo" data-value="1">Ücretsiz Kargo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-item">
+                        <div class="image">
+                            <a href="#">
+                                <img src="img/oyuncak-9.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="detail">
+                            <a href="#" class="name">L.O.L Havuzlu Araba ve Bebekler</a>
+                            <div class="price">
+                                <div class="old-price">399,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                                <div class="last-price">379,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                                <div class="discount">5%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-item">
+                        <div class="image">
+                            <a href="#">
+                                <img src="img/oyuncak-10.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="detail">
+                            <a href="#" class="name">Oyuncak Dinazor</a>
+                            <div class="price">
+                                <div class="last-price">149,99<i class="fa fa-try" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-wrapper banner02">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6"><a href="#"><img src="img/banner02-1.jpg" alt=""></a></div>
+                <div class="col-xs-12 col-sm-6"><a href="#"><img src="img/banner02-2.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-wrapper banner03">
+        <div class="container">
+            <div class="text-banner">
+                <div class="detail">
+                    <h4>Masal Dünyasına Hoşgeldin!</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt.</p>
+                    <a href="#" class="btn">İncele</a>
+                </div>
+                <div class="image"><a href="#"><img src="img/banner03.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner-wrapper">
+        <!--<h3>Markalar</h3>-->
+        <div class="brands">
+            <div class="item"><a href="#"><img src="img/hot-wheels-logo.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="img/lego-logo.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="img/barbie-logo.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="img/fisher-price-logo.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="img/disney-logo.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="img/starwars-logo.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="img/avangers-logo.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="img/nerf-logo.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="img/harika-kanatlar-logo.png" alt=""></a></div>
+            <div class="item"><a href="#"><img src="img/L.O.L.-logo.png" alt=""></a></div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="footer-contact">
+                    <p class="address"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Lorem Mahallesi ipsum sokak Kat:2 No:09 Nilüfer/Bursa</span></p>
+                    <p class="phone"><i class="fa fa-phone" aria-hidden="true"></i><span>0555 555 55 55</span></p>
+                    <p class="email"><i class="fa fa-envelope" aria-hidden="true"></i><span>test.deneme@gmail.com</span></p>
+                </div>
+                <ul class="social-media list-unstyled">
+                    <li class="instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/login?lang=tr"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="footer-nav">
+                            <h4><a class="footer-menu-baslik" href="">Kurumsal</a></h4>
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <ul class="list-unstyled">
+                                <li><a href="/hakkimizda">Hikayemiz</a></li>
+                                <li><a href="/iletisim">İletişim</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="footer-nav">
+                            <h4><a class="footer-menu-baslik" href="">Sipariş</a></h4>
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <ul class="list-unstyled">
+                                <li><a href="/siparis-teslimat-iade">Sipariş, Teslimat ve İade</a></li>
+                                <li><a href="/kargo-secenekleri">Kargo Seçenekleri</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="footer-nav">
+                            <h4><a class="footer-menu-baslik" href="">Ödeme</a></h4>
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <ul class="list-unstyled">
+                                <li><a href="/gizlilik-guvenlik">Gizlilik ve Güvenlik</a></li>
+                                <li><a href="/kullanim-kosullari">Kullanım Koşulları</a></li>
+                                <li><a href="/odeme-secenekleri">Ödeme Seçenekleri</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="hidden-xs col-sm-3 col-md-3">
+                            <div class="ebulletin-info">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                <span>E-Bültene Abone Ol</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9">
+                            <div class="ebulletin">
+                                <form id="bultenform" name="bultenform" action="" method="post">
+                                    <input type="email" class="form-control" maxlength="150" data-rule-email="true" data-rule-required="true" placeholder="E-mail adresinizi giriniz" name="BultenMail" id="BultenMail">
+                                    <button class="btn" name="BultenEkle">Kayıt Ol</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="page-up"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+    <div class="whatsapp"><a href="https://api.whatsapp.com/send?phone=905555555555" target="_blank"><span>Whatsapp Destek</span><i class="fa fa-whatsapp" aria-hidden="true"></i></a></div>
+
+    <!-- Bootstrap jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!-- My JS -->
+    <script src="js/theme.js"></script>
+    <script src="js/theme-home.js"></script>
+    <!-- Slick -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- SVG -->
+
+  </body>
+</html>
