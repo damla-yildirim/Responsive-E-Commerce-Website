@@ -141,7 +141,7 @@ header .mainmenu.fixed {position: fixed; z-index: 4; right: 0; left: 0; top: 0; 
 	.mobile-search, .mobile-menu {width: 100%;}
 }
 
-.fullslider {margin-bottom: 30px;}
+.fullslider {margin-bottom: 10px;}
 	.fullslider .item img {margin: 0 auto;}
 	.fullslider>button {position: absolute; z-index: 1; width: 50px; height: 100%; top: 0; border: none; background-color: #ffffff96;}
 	.fullslider>button.slick-next {right: 0;}
@@ -150,6 +150,8 @@ header .mainmenu.fixed {position: fixed; z-index: 4; right: 0; left: 0; top: 0; 
 	.fullslider ul li {display: inline-block; margin-right: 5px;}
 	.fullslider ul li button {border: none; width: 50px; height: 5px; font-size: 0; background-color: #fbe4e5;}
 	.fullslider ul li.slick-active button {background-color: #f29599;}
+
+marquee {width: 100%; height: auto; font-size: 16px; padding: 10px 0; font-weight: 500;}
 
 .shopping-info {display: flex; justify-content: space-between; background-color: #f5f5f5; padding: 25px 0; border-radius: 5px; margin-bottom: 30px; white-space: nowrap; overflow-y: scroll;}
 	.shopping-info .item {width: 25%; display: flex; justify-content: center; cursor: pointer;}
